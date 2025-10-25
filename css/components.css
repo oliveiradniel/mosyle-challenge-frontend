@@ -181,3 +181,26 @@ form {
   color: #ffffff;
   text-align: center;
 }
+
+.btn-save:focus {
+  outline-color: var(--color-primary);
+  outline-offset: 2px;
+}
+
+.btn-save:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-save:active {
+  background-color: var(--color-primary-active);
+}
+
+.form-group input[type="text"]:focus,
+.form-group select:focus {
+  outline-color: var(--color-primary);
+}
+
+.checkbox-group input:focus {
+  outline-color: var(--color-primary);
+  outline-offset: 1px;
+}
