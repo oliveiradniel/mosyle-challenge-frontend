@@ -9,3 +9,16 @@ main {
   border-radius: 8px;
   box-shadow: var(--shadow-default);
 }
+
+header {
+  padding: 16px 24px;
+
+  border-radius: var(--rounded-top);
+  background-color: var(--color-surface);
+}
+
+header h1 {
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+}
