@@ -69,3 +69,52 @@ form {
   font-size: var(--font-size-label);
   font-weight: var(--font-weight-semibold);
 }
+
+.application-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 36px;
+  width: 100%;
+  max-width: 320px;
+  margin: 36px auto 12px;
+}
+
+.apps-icons-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.apps-icons-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.application-container h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: var(--height-button);
+
+  border-radius: var(--rounded-button);
+  background-color: var(--color-surface);
+
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+
+}
+
+.apps-icons-container span {
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
