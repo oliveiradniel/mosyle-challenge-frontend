@@ -140,3 +140,27 @@ form {
   width: 60px;
   height: 60px;
 }
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+
+  outline: 2px solid var(--color-bg);
+  transition: outline-color var(--transition-fast);
+
+  cursor: pointer;
+}
+
+.checkbox-group label {
+  align-items: center;
+
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-regular);
+}
