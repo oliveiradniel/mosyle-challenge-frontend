@@ -1,0 +1,34 @@
+:root {
+  --height-button: 42px;
+  --gap-form: 32px;
+  --gap-form-group: 16px;
+  --padding-header: 16px 24px;
+  --padding-form: 24px;
+
+  --rounded-input: 4px;
+  --rounded-button: 4px;
+  --rounded-top: 8px 8px 0px 0px;
+  --rounded-bottom: 0px 0px 8px 8px;
+  --transition-fast: 0.3s ease-in-out;
+  --shadow-default: 0px 2px 12px 6px rgba(0, 0, 0, 0.1);
+
+  --font-size-label: 0.875rem;
+  --font-size-input: 0.875rem;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --color-primary: #3F8EFC;
+  --color-primary-hover: #559cff;
+  --color-primary-active: #1a7aff;
+
+  --color-text: #060606;
+  --color-text-secondary: #37484F;
+  --color-text-tertiary: #A5A5A5;
+
+  --color-bg: #ffffff;
+  --color-surface: #F0F0EF;
+  --color-border-input: #e6e6e6;
+  --color-text-input: #888888;
+  --color-alert: #F03221;
+}
