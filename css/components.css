@@ -204,3 +204,10 @@ form {
   outline-color: var(--color-primary);
   outline-offset: 1px;
 }
+
+.required::after {
+  margin-left: 4px;
+
+  content: '*';
+  color: var(--color-alert);
+}
