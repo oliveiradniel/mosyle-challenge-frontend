@@ -36,6 +36,77 @@
       <header class="header-form">
         <h1 id="install-apps">Install Apps</h1>
       </header>
+
+      <form>
+        <div class="form-group">
+          <label for="profile-name" class="required">Profile Name</label>
+
+          <div class="input-icon-container">
+            <input id="profile-name" aria-required="true" autofocus type="text" name="profile-name">
+            <img aria-hidden="true" src="assets/icons/document.svg" alt="">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="installation-source">Installation source</label>
+
+          <select id="installation-source" name="installation-source">
+            <option selected>Apps and Books (VPP)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="assignment-method">Assignment method</label>
+
+          <select id="assignment-method" name="assignment-method">
+            <option selected>Device based - Assign licenses to device serial number</option>
+          </select>
+        </div>
+
+        <div class="application-container">
+          <h2>add application</h2>
+
+          <div class="apps-icons-container">
+            <div>
+              <img src="assets/icons/omni-focus-4.svg" alt="">
+              <span>OminiFocus4</span>
+            </div>
+
+            <div>
+              <img src="assets/icons/sketch.svg" alt="">
+              <span>Sketch</span>
+            </div>
+
+            <div>
+              <img src="assets/icons/microsoft-excel.svg" alt="">
+              <span>Microsoft Excel</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="label-icon-container">
+            <label for="auto-install">Auto-install apps</label>
+
+            <img aria-hidden="true" src="assets/icons/info-circle.svg" alt="">
+          </div>
+
+          <select id="auto-install" name="auto-install">
+            <option selected>Install all apps after saving the profile</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="self-service-apps">Self-service apps</label>
+
+          <div class="checkbox-group">
+            <input id="show-self-service" type="checkbox" checked>
+            <label for="show-self-service">Show the apps in Self-Service</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-save">Save & Send</button>
+      </form>
     </div>
   </main>
 </body>
