@@ -22,3 +22,14 @@ header h1 {
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-secondary);
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--gap-form);
+  padding: var(--padding-form);
+
+  border-radius: var(--rounded-bottom);
+  background-color: var(--color-bg);
+}
