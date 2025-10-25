@@ -1,0 +1,30 @@
+.btn-save {
+  width: 100%;
+  max-width: 200px;
+  height: var(--height-button);
+  margin: 32px auto 0px;
+
+  border: none;
+  border-radius: var(--rounded-button);
+  outline: 2px solid var(--color-bg);
+  background-color: var(--color-primary);
+  transition: background-color var(--transition-fast), outline-color var(--transition-fast);
+
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semibold);
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-save:focus {
+  outline-color: var(--color-primary);
+  outline-offset: 2px;
+}
+
+.btn-save:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-save:active {
+  background-color: var(--color-primary-active);
+}

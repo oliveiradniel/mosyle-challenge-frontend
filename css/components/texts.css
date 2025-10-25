@@ -1,0 +1,47 @@
+header h1 {
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+}
+
+.form-group label {
+  font-size: var(--font-size-label);
+  font-weight: var(--font-weight-semibold);
+}
+
+.required::after {
+  margin-left: 3px;
+
+  content: '*';
+  color: var(--color-alert);
+}
+
+.application-container h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: var(--height-button);
+
+  border-radius: var(--rounded-button);
+  background-color: var(--color-surface);
+
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+
+}
+
+.apps-icons-container span {
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.checkbox-group label {
+  align-items: center;
+
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-regular);
+}

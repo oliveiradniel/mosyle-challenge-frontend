@@ -1,0 +1,83 @@
+main {
+  width: 100%;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.box-shadow {
+  border-radius: 8px;
+  box-shadow: var(--shadow-default);
+}
+
+header {
+  padding: 16px 24px;
+
+  border-radius: var(--rounded-top);
+  background-color: var(--color-surface);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--gap-form);
+  padding: var(--padding-form);
+
+  border-radius: var(--rounded-bottom);
+  background-color: var(--color-bg);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--gap-form-group);
+}
+
+.input-icon-container {
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+}
+
+.label-icon-container {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.application-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 36px;
+  width: 100%;
+  max-width: 320px;
+  margin: 36px auto 12px;
+}
+
+.apps-icons-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.apps-icons-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
