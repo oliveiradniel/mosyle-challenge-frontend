@@ -3,3 +3,28 @@
   margin: 0;
   padding: 0;
 }
+
+/* Remove the native dropdown arrow from select elements */
+
+/* Modern browsers */
+select {
+  /* Chrome, Safari, Edge */
+  -webkit-appearance: none;
+
+  /* Firefox */
+  -moz-appearance: none;
+
+  /* Standard CSS */
+  appearance: none;
+}
+
+/* Firefox older versions: remove inner focus border and native arrow */
+select::-moz-focus-inner,
+select::-moz-list-button {
+  display: none;
+}
+
+/* Internet Explorer 10+ */
+select::-ms-expand {
+  display: none;
+}

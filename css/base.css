@@ -17,3 +17,11 @@ body {
 button {
   cursor: pointer;
 }
+
+/* Add arrow to select elements */
+select {
+  background-image: url('../assets/icons/arrow-down.svg');
+  background-position: right 12px center;
+  background-size: 10px;
+  background-repeat: no-repeat;
+}
