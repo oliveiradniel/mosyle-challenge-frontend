@@ -118,3 +118,25 @@ form {
   text-align: center;
   color: var(--color-text-secondary);
 }
+
+.input-icon-container img {
+  width: 40px;
+  height: 40px;
+}
+
+.label-icon-container {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.label-icon-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.apps-icons-container img {
+  width: 60px;
+  height: 60px;
+}
