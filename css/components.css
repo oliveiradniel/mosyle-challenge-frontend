@@ -78,7 +78,7 @@ form {
   gap: 36px;
   width: 100%;
   max-width: 320px;
-  margin: 36px auto 12px;
+  margin: 32px auto 12px;
 }
 
 .apps-icons-container {
@@ -110,7 +110,6 @@ form {
   font-size: 0.875rem;
   text-transform: uppercase;
   color: var(--color-text-secondary);
-
 }
 
 .apps-icons-container span {
@@ -163,4 +162,22 @@ form {
 
   font-size: 0.875rem;
   font-weight: var(--font-weight-regular);
+}
+
+.btn-save {
+  width: 100%;
+  max-width: 200px;
+  height: var(--height-button);
+  margin: 32px auto 0px;
+
+  border: none;
+  border-radius: var(--rounded-button);
+  outline: 2px solid var(--color-bg);
+  background-color: var(--color-primary);
+  transition: background-color var(--transition-fast), outline-color var(--transition-fast);
+
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semibold);
+  color: #ffffff;
+  text-align: center;
 }
