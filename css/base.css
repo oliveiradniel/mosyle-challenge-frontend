@@ -18,6 +18,13 @@ button {
   cursor: pointer;
 }
 
+/* Truncate overflowing select text with "..." */
+select {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /* Add arrow to select elements */
 select {
   background-image: url('../assets/icons/arrow-down.svg');
