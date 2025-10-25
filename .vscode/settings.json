@@ -1,0 +1,30 @@
+{
+  // Enable auto-format on save
+  "editor.formatOnSave": true,
+
+  // HTML-specific settings
+  "[html]": {
+    // Wich formatter to use
+    "editor.defaultFormatter": "vscode.html-language-features",
+
+    // Tab size (number of spaces per tab)
+    "editor.tabSize": 2,
+
+    // Use spaces instead of tab characters
+    "editor.insertSpaces": true,
+
+    // Automatically trim unnecessary whitespace
+    "editor.trimAutoWhitespace": true
+  },
+
+  // CSS-specific settings
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.trimAutoWhitespace": true
+  },
+
+  // Remove trailling whitespace in all files
+  "files.trimTrailingWhitespace": true
+}
